@@ -1,4 +1,4 @@
-<!-- <!-- <!DOCTYPE html> -->
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -9,10 +9,11 @@
       content="web design, affordable web design, professional web design"
     />
     <meta name="author" content="sergithewinner" />
-    <title>Acme Web Design | Welcome</title>
+    <title>Acme Web Design | Services</title>
+    <!-- <link rel="stylesheet" href="./css/style.css" /> -->
     <link rel="stylesheet" href="/dist/style.css" />
   </head>
-  <body class="font-sans leading-normal bg-gray-100">
+  <body class="">
     <header
       class="flex flex-col w-full px-6 py-8 text-center text-white bg-gray-700 border-b-4 border-orange-600 border-solid xl:flex-row xl:text-left lg:justify-between"
     >
@@ -46,22 +47,6 @@
     </header>
 
     <section
-      class="text-center text-white bg-no-repeat h-96"
-      style="background: url(/img/showcase.jpg) 0 -400px"
-    >
-      <div class="w-4/5 pt-6 m-auto sm:pt-16">
-        <h1 class="mb-6 text-6xl font-bold">
-          Affordable Proffesional Web Design
-        </h1>
-        <p class="text-xl">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium
-          placeat perferendis dolorum iste voluptatem ratione harum magnam quos
-          beatae? Recusandae.
-        </p>
-      </div>
-    </section>
-
-    <section
       class="flex flex-col w-full px-6 py-8 text-center text-white bg-gray-700 border-b-4 sm:flex-row sm:text-left sm:justify-between"
     >
       <div class="w-4/5 m-auto">
@@ -85,6 +70,64 @@
             </button>
           </form>
         </div>
+      </div>
+    </section>
+
+    <section id="main">
+      <div class="container">
+        <article id="main-col">
+          <h1 class="page-title">Services</h1>
+          <ul id="services">
+            <li>
+              <h3>Website Design</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor
+                itaque sapiente error ullam impedit quas commodi debitis quos
+                nihil pariatur. Accusamus in vitae veniam autem.
+              </p>
+              <p>Pricing: $1,000 - $3,000</p>
+            </li>
+            <li>
+              <h3>Website Maintenance</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor
+                itaque sapiente error ullam impedit quas commodi debitis quos
+                nihil pariatur. Accusamus in vitae veniam autem.
+              </p>
+              <p>Pricing: $250 per month</p>
+            </li>
+            <li>
+              <h3>Website Hosting</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor
+                itaque sapiente error ullam impedit quas commodi debitis quos
+                nihil pariatur. Accusamus in vitae veniam autem.
+              </p>
+              <p>Pricing: $25 per month</p>
+            </li>
+          </ul>
+        </article>
+
+        <aside id="sidebar">
+          <div class="dark">
+            <h3>Get A Quote</h3>
+            <form class="quote">
+              <div>
+                <label>Name</label><br />
+                <input type="text" placeholder="Name" />
+              </div>
+              <div>
+                <label>Email</label><br />
+                <input type="email" placeholder="Email Address" />
+              </div>
+              <div>
+                <label>Message</label><br />
+                <textarea placeholder="Message"></textarea>
+              </div>
+              <button class="button_1" type="submit">Send</button>
+            </form>
+          </div>
+        </aside>
       </div>
     </section>
 
