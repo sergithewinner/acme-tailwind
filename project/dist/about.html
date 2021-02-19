@@ -12,7 +12,7 @@
     <title>Acme Web Design | About</title>
     <link rel="stylesheet" href="/dist/style.css" />
   </head>
-  <body>
+  <body class="bg-gray-200">
     <header
       class="flex flex-col w-full px-6 py-8 text-center text-white bg-gray-700 border-b-4 border-orange-600 border-solid xl:flex-row xl:text-left lg:justify-between"
     >
@@ -72,10 +72,15 @@
       </div>
     </section>
 
-    <section id="main">
-      <div class="container">
-        <article id="main-col">
-          <h1 class="page-title">About Us</h1>
+    <section
+      class="flex flex-col w-full px-6 py-8 mt-4 text-lg text-center text-black border-b-4 sm:flex-row sm:text-left sm:justify-between"
+    >
+      <div class="w-4/5 m-auto">
+        <h1 class="text-3xl font-bold uppercase">About Us</h1>
+        <br />
+
+        <article class="float-none lg:w-7/12 sm:float-left">
+          <!-- <h1 class="text-3xl font-bold">About Us</h1> -->
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem
             incidunt assumenda consectetur fugit animi sed, nostrum suscipit
@@ -90,7 +95,7 @@
             adipisci soluta delectus, aut architecto aliquam at voluptatibus
             nostrum debitis recusandae distinctio alias perferendis asperiores.
           </p>
-          <p class="dark">
+          <p class="p-4 mt-16 text-white bg-gray-700">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             Asperiores, possimus. Rerum aliquid ipsam delectus deleniti ipsum,
             sed est, asperiores a suscipit provident obcaecati molestiae porro
@@ -106,10 +111,10 @@
           </p>
         </article>
 
-        <aside id="sidebar">
-          <div class="dark">
+        <aside class="float-none lg:w-4/12 sm:float-right">
+          <div class="p-4 mt-2 text-white bg-gray-700">
             <h3>What We Do</h3>
-            <p>
+            <p class="">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Praesentium, commodi consectetur obcaecati omnis tempore
               asperiores eveniet! Possimus quae consequuntur dolores rerum
